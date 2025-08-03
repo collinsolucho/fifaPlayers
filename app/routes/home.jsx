@@ -1,12 +1,12 @@
-import { Welcome } from "../welcome/welcome";
+import { PlayersList } from "../components/PlayersList";
 
 export function meta() {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "FIFA Players - React Router App" },
+    { name: "description", content: "View FIFA players information!" },
   ];
 }
 
 export default function Home() {
-  return <Welcome />;
+  return <PlayersList />;
 }
