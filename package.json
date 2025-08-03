@@ -1,11 +1,34 @@
 {
-  "name": "my-react-router-app",
+  "name": "fifa-players-react",
+  "version": "1.0.0",
+  "description": "A modern, responsive React application showcasing FIFA players with beautiful cards and interactive features",
+  "keywords": [
+    "react",
+    "fifa",
+    "football",
+    "players",
+    "responsive",
+    "bootstrap",
+    "vite",
+    "react-router"
+  ],
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/fifa-players-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/fifa-players-react/issues"
+  },
+  "homepage": "https://github.com/yourusername/fifa-players-react#readme",
   "private": true,
   "type": "module",
   "scripts": {
     "build": "react-router build",
     "dev": "react-router dev",
-    "start": "react-router-serve ./build/server/index.js"
+    "start": "react-router-serve ./build/server/index.js",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@react-router/node": "^7.7.1",
@@ -22,5 +45,9 @@
     "@tailwindcss/vite": "^4.1.4",
     "tailwindcss": "^4.1.4",
     "vite": "^6.3.3"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   }
 }
